@@ -1,0 +1,36 @@
+{
+	"name": "mode-env",
+	"version": "0.0.0",
+	"description": "Check `process.env.NODE_ENV`",
+	"license": "MIT",
+	"repository": "iguntur/mode-env",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"author": {
+		"name": "Guntur Poetra",
+		"email": "poetra.guntur@gmail.com",
+		"url": "https://github.com/iguntur"
+	},
+	"engines": {
+		"node": ">=0.10"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"keywords": [
+		"check",
+		"process",
+		"NODE_ENV",
+		"production",
+		"development",
+		"test",
+		"debug",
+		"env"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
+}
